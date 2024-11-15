@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicando con GitHub</title>
+</head>
+<body>
+    <h1>Guia por si te perdiste con tus Repos</h1>
+    <img src="images/descarga.jpg" alt="">
+    <h2>Pasos, primero lo primero</h2>
+    <h3>1. Crear una Pagina HTML</h3>
+    <P>Abre Visual Studio Code y crea una nueva carpeta para tu proyecto.
+    Luego, dentro de esa carpeta, crea un nuevo archivo llamado index.html.</P>
+    <h4>No olvides guardar el archivo despues de escribir tu codigo</h4>
+    <h3>2. Inicializar un Repositorio Git</h3>
+    <p>Abre una terminal integrada en Visual Studio Code (puedes hacerlo con el atajo Ctrl + `)
+    y navega hasta la carpeta de tu proyecto. Una vez allí, inicializa un nuevo repositorio
+    git con el siguiente comando: git init</p>
+    <h3>3. Añadir Archivos y Hacer el Primer Commit</h3>
+    <p>Añade todos los archivos del proyecto al repositorio y haz tu primer commit:
+        'git add .' luego 
+        'git commit -m "Primer commit - Página HTML creada"'</p>
+    <h3>4. Crear un Repositorio en GitHub</h3>
+    <p>Ve a GitHub y crea un nuevo repositorio. Dale un nombre a tu repositorio (por ejemplo, mi-pagina-html)
+    y asegúrate de no inicializarlo con un README, .gitignore o una licencia.</p>
+    <h3>5. Conectar el Repositorio Local con GitHub</h3>
+    <p>Regresa a la terminal en Visual Studio Code y añade el repositorio remoto con el siguiente comando, reemplazando
+    <USERNAME> y <REPO> con tu nombre de usuario y el nombre del repositorio que acabas de crear en GitHub:</p>
+    <p>git remote add origin</p>
+    <h3>6. Subir los Cambios a GitHub</h3>
+    <p>Finalmente, sube tus cambios al repositorio remoto con los siguientes comandos:</p>
+    <p>git branch -M main</p>
+    <p>git push -u origin main</p>
+    <h3>7. Verifica en GitHub</h3>
+    <p>Ve a tu repositorio en GitHub y verifica que los archivos se han subido correctamente. Deberías ver tu archivo index.html y cualquier otro archivo que hayas incluido en el repositorio.</p>
+    <h4>¡Y eso es todo! Has creado una página HTML y la has subido a GitHub usando Visual Studio Code</h4>
+</body>
+</html>
